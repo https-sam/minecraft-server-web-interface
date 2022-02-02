@@ -7,7 +7,7 @@ Feel free to go to the [website](https://minecraft-server.ngrok.io/login) and tr
 
 Detailed Documentation can be found [here](https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing)
 
-Back end Minecraft server can be found [here](https://github.com/https-sam/minecraft-backend-server)
+Backend Minecraft server can be found [here](https://github.com/https-sam/minecraft-backend-server)
 
 # Web pages
 
