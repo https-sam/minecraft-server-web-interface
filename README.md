@@ -4,7 +4,7 @@ This project was made to improve and make it easier to manage Minecraft servers.
 
 Detailed Documentation can be found here -> https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing
 
-Back end Minecraft server can be found here -> https://github.com/https-sam/minecraft-backend-server
+Backend Minecraft server can be found here -> https://github.com/https-sam/minecraft-backend-server
 
 # Web pages
 
