@@ -1,0 +1,44 @@
+
+<%- include('./partials/navbar', {title: title}) %> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="stylesheet" href="/css/controlPanel.css">
+    <title>Control Panel</title>
+</head>
+<body>
+
+    <div class="control-container">
+        <div class="canvas">
+            <form id="input-server-prop" action="/update-prop" method="POST">
+                <% if(data.length > 1) { %>
+                    <button type="submit" class="save-btn">
+                        <span class="btn_txt">SAVE</span>
+                    </button>
+                    <div class="box">
+                        <% for(let i = 0; i < data.length; i++) { %>
+                            <div class="item-container">
+                                <label for="<%= data[i][0] %>" class="input-label"><%= data[i][0] %></label>
+                                <input required type="text" value="<%= data[i][1] %>" name="<%= String.fromCharCode(i+97) %>" class="input-field"/>
+                            </div>
+                        <% } %>
+                    </div>
+                 <% } else {%>
+                    <h3 style="text-align: center;">Server is restarting or offline. Please check the server status.</h1>
+                 <% } %>
+            </form>
+        </div>
+    </div>
+
+    <script>
+       const theButton = document.querySelector(".save-btn");
+        theButton.addEventListener("click", () => {
+            theButton.classList.add("button--loading");
+        });
+    </script>
+</body>
+</html>

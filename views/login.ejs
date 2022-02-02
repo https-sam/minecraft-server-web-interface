@@ -1,0 +1,61 @@
+<!-- <h1>Login</h1>
+<% if (messages.error) {%>
+    <%= messages.error %>
+<% } %> 
+<form action='/login', method="POST">
+    <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" required>
+    </div>
+    <button type="submit">Login</button>
+</form>
+
+<a href="/register">Register</a> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/alertify.min.css"/>
+    <script src="/script/alertify.min.js"></script>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <div class="user">
+        <header class="user__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#ffffff" d="M24 8h-24v4h24v-4zm-22 3l.863-2h1.275l-.863 2h-1.275zm2.066 0l.864-2h1.275l-.863 2h-1.276zm2.067 0l.863-2h1.275l-.864 2h-1.274zm2.066 0l.863-2h1.274l-.863 2h-1.274zm3.341 0h-1.274l.863-2h1.275l-.864 2zm9.46 0c-.552 0-1-.448-1-1s.448-1 1-1c.553 0 1 .448 1 1s-.447 1-1 1zm3 3h-24v4h24v-4zm-22 3l.863-2h1.275l-.863 2h-1.275zm2.066 0l.863-2h1.275l-.863 2h-1.275zm2.067 0l.863-2h1.275l-.864 2h-1.274zm2.066 0l.863-2h1.274l-.863 2h-1.274zm3.341 0h-1.274l.863-2h1.275l-.864 2zm9.46 0c-.552 0-1-.448-1-1s.448-1 1-1c.553 0 1 .448 1 1s-.447 1-1 1zm3 3h-24v4h24v-4zm-22 3l.863-2h1.275l-.863 2h-1.275zm2.066 0l.863-2h1.275l-.863 2h-1.275zm2.067 0l.863-2h1.275l-.864 2h-1.274zm2.066 0l.863-2h1.274l-.863 2h-1.274zm3.341 0h-1.274l.863-2h1.275l-.864 2zm9.46 0c-.552 0-1-.448-1-1s.448-1 1-1c.553 0 1 .448 1 1s-.447 1-1 1zm1-17h-20l4-6h12l4 6z"/></svg><br/><br/>
+            <h1 class="user__title">Login</h1>
+        </header>
+        
+        <form action='/login', method="POST" class="form">
+            <div class="register-error">
+                <% if (messages.error) {%>
+                    <script>
+                        alertify.set('notifier','position', 'top-right');
+                        var message = '<%= messages.error %>';
+                        alertify.error(message);
+                    </script>
+                <% } %> 
+            </div>
+            <div class="form__group">
+                <input type="text" placeholder="Username" class="form__input_u" name='username' required/>
+            </div>
+            
+            <div class="form__group">
+                <input type="password" placeholder="Password" class="form__input_p" name="password" required />
+            </div><br/>
+            
+            <button class="login-btn" type="submit">Login</button><br/>
+            <div><p class="a-account">Or don't have an account?</p></div><br/>
+            <a href="/register" class="a-signin"><button class="register-btn-in-login" type="button">Sign up</button></a>
+        </form>
+    </div>
+</body>
+</html>

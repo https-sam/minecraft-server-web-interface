@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("https://i.ibb.co/5WYRDgp/dirt.jpg");
+}
+
+.canvas {
+    width: 100%;
+    height: 100vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+.status-container { 
+    width: 80%;
+    height: 90%;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid black;
+    border-radius: 9px;
+    position:relative
+}
+
+.server-status { /* top part of canvas */
+    width: 100%;
+    /* height: 100px;background-color: rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.status {
+    height: 100px;
+    width: 20%;
+    /* background-color: red; */
+    display: flex;
+    padding-left: 40px;
+    align-items: center; 
+    margin-right: -30px;
+}
+
+.status > h1 {
+    font-size: 30px;
+   height: 30px;
+}
+
+.server-status-icon {
+    width: 10%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.status-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-container {
+    height: 100px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+    /* background-color:darkolivegreen; */
+}
+
+/* .btn-container > button {
+   
+} */
+
+.empty-c {
+    width: 10%;
+}
+
+.logged-in-user {
+    width: 25%;
+    height: 100px;
+    /* background-color: darkorange; */
+    padding-right: 10px;
+    padding: 33px;
+   
+} .logged-in-user > p {
+    color: grey;
+    float: right;
+    text-align: center;
+    justify-self: center;
+}
+
+
+.server-address {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+} .server-address > h5{
+    margin-left: 50px;
+} .server-address > p {
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.ram-usage {
+    height: 65%;
+    width: 95%;
+    margin: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+}
+
+
+
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  #stop-btn {
+    width: 150px;
+      height: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      background: red;
+      border: none;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    #restart-btn {
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background: rgb(245, 121, 5);
+        border: none;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+    #start-btn {
+        width: 150px;
+          height: 50px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          background: rgb(47, 187, 42);
+          border: none;
+          border-radius: 5px;
+          margin-right: 20px;
+    }
+  
+  button, button span {
+      transition: 200ms;
+  }
+  
+  button .text {
+      transform: translateX(35px);
+      color: white;
+      font-weight: bold;
+  }
+  
+  button .icon {
+      position: absolute;
+     
+      transform: translateX(110px);
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  button svg {
+      width: 15px;
+      fill: #eee;
+  }
+  
+  button:hover {
+      background: #ff3636;
+  }
+  
+  button:hover .text {
+      color: transparent;
+  }
+  
+  button:hover .icon {
+      width: 150px;
+      border-left: none;
+      transform: translateX(0);
+  }
+  
+  button:focus {
+      outline: none;
+  }

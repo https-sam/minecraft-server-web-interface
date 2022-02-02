@@ -1,0 +1,62 @@
+html, body {
+    background-image: url("https://i.ibb.co/5WYRDgp/dirt.jpg");
+}
+
+.canvas-log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container-log {
+    overflow:auto;
+    height: 80vh;
+    width: 90vh;
+    background-color: black;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.tab-bar {
+    height: 3%;
+    background-color: #ECE9EA;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 12px 12px 0px 0px;
+}
+.close-btn {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 100%;
+    margin: 5px;
+}
+.r {
+    background-color: #E06054;
+}
+
+.y {
+    background-color: #F5BF4F;
+}
+.g {
+    background-color: #62C555;
+}
+
+.logs {
+    height: 80%;
+    width: 90%;
+}
+.logs > p {
+    font-family:monospace;
+    color: white;
+    margin-left: 5px;
+}
+
+.canvas-g {
+    height: 80vh;
+    width: 90vh; 
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-flow: column;
+    border-radius: 12px;
+}
