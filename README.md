@@ -5,9 +5,9 @@ This project was made to improve and make it easier to manage Minecraft servers.
 Feel free to go to the [website](https://minecraft-server.ngrok.io/login) and try it out! If you'd like to register, use the access code "sam", or if you don't like making an account, reach out to me at osgo1115@icloud.com.
 
 
-Detailed Documentation can be found here -> https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing
+Detailed Documentation can be found [here](https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing)
 
-Back end Minecraft server can be found here -> https://github.com/https-sam/minecraft-backend-server
+Back end Minecraft server can be found [here](https://github.com/https-sam/minecraft-backend-server)
 
 # Web pages
 
