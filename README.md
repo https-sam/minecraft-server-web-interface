@@ -1,10 +1,12 @@
 # Minecraft server web interface
 
-This project was made to improve and make it easier to manage Minecraft servers. with a very simple and easy web interface to manage your server.  
+This project was made to improve and make it easier to manage Minecraft servers. with a very simple and easy web interface to manage your server.
 
+Detailed Documentation can be found here -> https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing
+
+Back end Minecraft server can be found here -> https://github.com/https-sam/minecraft-backend-server
 
 # Web pages
-
 
 **Login / Registration page**
 ![Login page](https://i.ibb.co/wMG8WQH/Screen-Shot-2022-02-02-at-12-52-14-PM.png)
