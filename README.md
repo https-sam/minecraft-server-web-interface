@@ -3,8 +3,8 @@
 This project was made to improve and make it easier to manage Minecraft servers with a very simple and easy web interface.
 
 
-Detailed Documentation can be found [here](https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing)
-
+<!-- Detailed Documentation can be found [here](https://docs.google.com/document/d/1vt_Z53ZLREbA_E5tSuCeTQGfemJPDH-laost6pwjhC0/edit?usp=sharing)
+ -->
 Backend Minecraft server can be found [here](https://github.com/https-sam/minecraft-backend-server)
 
 # Web pages
